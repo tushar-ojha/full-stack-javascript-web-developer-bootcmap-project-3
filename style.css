@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #2b2922;
+    font-family: Montserrat;
+}
+
+
+/* Navbar section start */
+.navbar {
+    margin: 3%;
+}
+
+.logo-container {
+    display: inline-block;
+    width: 30%;
+}
+
+.logo-container > img {
+    width: 100px;
+}
+
+.list-container {
+    display: inline-block;
+    width: 58.9%;
+    vertical-align: top;
+    margin-top: 0.8%;
+}
+
+.list {
+    text-align: right;
+    list-style: none;
+}
+
+.list-item {
+    display: inline-block;
+    color: grey;
+    margin-left: 10%;
+}
+
+.list-item:hover {
+    cursor: pointer;
+}
+
+.list-item:first-child {
+    color: white;
+}
+
+.button-small-container {
+    width: 10%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+}
+
+.button-small {
+    color: #a08f36;
+    background-color: transparent;
+    border: solid 1px #a08f36;
+    border-radius: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    font-weight: 600;
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1rem;
+}
+
+.button-small {
+    cursor: pointer;
+}
+/* Navbar section end */
+
+
+
+/* hero section start:- */
+.hero {
+    margin: 3%;
+    color: white;
+    margin-bottom: 1%;
+}
+
+.hero-heading {
+    display: inline-block;
+    width: 49%;
+    font-size: 5rem;
+}
+
+.hero-para {
+    margin-left: 6%;
+    margin-top: 3%;
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    font-weight: 100;
+}
+
+.bottom > img {
+    width: 100%;
+    height: 300px;
+}
+
+.last-icon {
+    height: 70px;
+    width: 100px;
+    margin-top: -2px;
+    margin-left: 93.5%;
+}
